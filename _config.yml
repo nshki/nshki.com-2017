@@ -1,0 +1,13 @@
+title: Nishiki Liu
+email: nishiki.liu@gmail.com
+
+social:
+  - service: Twitter
+    url: 'https://twitter.com/nshki_'
+  - service: GitHub
+    url: 'https://github.com/nshki'
+  - service: LinkedIn
+    url: 'https://www.linkedin.com/in/nshki/'
+
+sass:
+  style: compressed
