@@ -9,5 +9,11 @@ social:
   - service: LinkedIn
     url: 'https://www.linkedin.com/in/nshki/'
 
+gems:
+  - jekyll-autoprefixer
+
 sass:
   style: compressed
+
+autoprefixer:
+  only_production: true

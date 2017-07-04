@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1024" viewBox="0 0 1440 1024">
+  <defs>
+    <polygon id="home-b" points="0 137.535 194.338 308.755 489.913 171.265 295.632 0"/>
+    <filter id="home-a" width="129.2%" height="146.3%" x="-14.6%" y="-22.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="23.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+    <polygon id="home-d" points="109.701 102.614 168.06 75.489 292.185 184.785 376.679 145.576 351.423 123.338 301.738 146.432 202.821 59.332 252.506 36.238 227.251 14 0 119.626 25.255 141.865 74.94 118.771 173.857 205.871 124.173 228.964 149.428 251.203 233.863 211.957"/>
+    <filter id="home-c" width="133.7%" height="154.8%" x="-16.9%" y="-13.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="34" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="15.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.11 0"/>
+    </filter>
+    <linearGradient id="home-e" x1="48.411%" x2="89.223%" y1="-7.603%" y2="120.765%">
+      <stop offset="0%" stop-color="#FFCD7B"/>
+      <stop offset="100%" stop-color="#F79A00"/>
+    </linearGradient>
+  </defs>
+  <g id="home-scene" fill="none" fill-rule="evenodd">
+    <g transform="translate(475 484)">
+      <g id="home-platform" transform="translate(0 4.97)">
+        <use fill="#000" filter="url(#home-a)" xlink:href="#home-b"/>
+        <polygon fill="#F1F1F1" points=".008 137.542 0 146.155 194.329 317.375 194.346 308.753"/>
+        <polygon fill="#E2E2E2" points="194.343 308.754 194.33 317.379 489.914 179.904 489.91 171.266"/>
+        <polygon fill="#FFF" points="0 137.535 194.338 308.755 489.913 171.265 295.632 0"/>
+      </g>
+      <g id="home-jayel" transform="translate(52.973)">
+        <use fill="#000" filter="url(#home-c)" xlink:href="#home-d"/>
+        <polygon fill="#DCA343" points="292.182 170.839 292.179 184.916 376.612 145.668 376.624 131.602"/>
+        <polygon fill="#DCA343" points="168.027 61.474 168.024 75.552 252.456 36.304 252.468 22.237"/>
+        <polygon fill="#C89033" points="292.198 184.886 292.206 170.763 168.064 61.492 168.062 75.567"/>
+        <polygon fill="#DCA343" points="109.613 102.757 168.031 75.602 168.042 61.536 109.726 88.633"/>
+        <polygon fill="#FFD794" points=".011 105.634 .002 119.7 25.264 141.945 25.259 127.867"/>
+        <polygon fill="#DCA343" points="25.248 127.855 25.245 141.932 109.678 102.685 109.689 88.618"/>
+        <polygon fill="#C89033" points="199.042 228.162 199.05 214.039 74.909 104.768 74.907 118.843"/>
+        <polygon fill="#FFD794" points="124.164 214.961 124.155 229.027 149.417 251.271 149.412 237.193"/>
+        <polygon fill="#DCA343" points="149.424 237.196 149.421 251.273 233.854 212.025 233.866 197.959"/>
+        <polygon fill="url(#home-e)" points="109.701 88.614 168.06 61.489 292.185 170.785 376.679 131.576 351.423 109.338 301.738 132.432 202.821 45.332 252.506 22.238 227.251 0 0 105.626 25.255 127.865 74.94 104.771 173.857 191.871 124.173 214.964 149.428 237.203 233.863 197.957"/>
+      </g>
+    </g>
+    <text id="home-text-1" fill="#000" font-family="Montserrat-Bold, Montserrat" font-size="64" font-weight="bold">
+      <tspan x="627" y="282">Hello.</tspan>
+    </text>
+    <text id="home-text-2" fill="#9B9B9B" font-family="Oxygen-Light, Oxygen" font-size="48" font-weight="300">
+      <tspan x="419" y="343">I’m Nishiki, a web developer.</tspan>
+    </text>
+  </g>
+</svg>

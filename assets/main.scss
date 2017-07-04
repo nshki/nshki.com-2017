@@ -7,4 +7,59 @@
 #
 ---
 
+@import 'config/colors';
 @import 'config/fonts';
+@import 'config/base';
+
+body {
+  visibility: hidden;
+
+  &.loaded {
+    visibility: visible;
+  }
+}
+
+.backdrop {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: right;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.svg-ctas {
+  cursor: default;
+}
+
+.svg-link {
+  fill: #fff;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.svg-btn {
+  cursor: pointer;
+
+  .svg-btn-front {
+    transition: 0.5s ease-in;
+  }
+
+  &:hover .svg-btn-front {
+    fill: lighten(#f5a623, 10%);
+  }
+}
