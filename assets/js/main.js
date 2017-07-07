@@ -55,8 +55,8 @@
   t.to($('#desk-text-1'), 1, { fill: '#fff' }, '-= 1');
   t.to($('#desk-text-2'), 1, { opacity: 0, x: -15 }, '-= 1');
   t.add(TweenLite.to($('#desk-text-3'), 1, { opacity: 1, x: 0 }, '-= 0.25'), 'backend');
-  t.to($('#desk-editor'), 0.5, { opacity: 1, scale: 1 }, '-= 0.25');
-  t.to($('#desk-terminal'), 0.5, { opacity: 1, scale: 1 }, '-= 0.25');
+  t.to($('#desk-editor'), 0.5, { opacity: 1, scale: 1 }, '-= 1');
+  t.to($('#desk-terminal'), 0.5, { opacity: 1, scale: 1 }, '-= 0.75');
   t.to($('#desk-lamp'), 1, { opacity: 1 });
   t.to($('#desk-lamp-light'), 1, { opacity: 1, scale: 1 }, '-= 1').addPause();
   t.to($('#desk-scene'), 1, { opacity: 0 });
@@ -97,7 +97,7 @@
   t.to($('#tabletop-scene'), 1, { opacity: 0 });
   t.to($('#backdrop'), 1, { backgroundColor: '#2b333f' }, '-= 1');
   t.to($('#tabletop-scene'), 0, { scale: 0 });
-  t.add(TweenLite.to($('#space-scene'), 0, { scale: 1 }), 'space');
+  t.add(TweenLite.set($('#space-scene'), { scale: 1 }), 'space');
   t.to($('#space-stars'), 4, { opacity: 1, y: 0 });
   t.to($('#space-sun'), 4, { opacity: 1, y: 0 }, '-= 4');
   t.to($('#space-earth'), 4, { opacity: 1, y: 0 }, '-= 4');
@@ -107,7 +107,7 @@
   t.call(function() { spaceDone = true; });
   t.to($('#space-rocket'), 20, { x: -100, y: -700 }, '-= 5').addPause();
   t.call(function() { spaceDone = false; });
-  t.to($('#space-text-1'), 1, { opacity: 0, y: -25 });
+  t.add(TweenLite.to($('#space-text-1'), 1, { opacity: 0, y: -25 }), 'contact');
   t.to($('#space-text-2'), 1, { opacity: 0, y: -25 }, '-= 1');
   t.to($('#space-sun'), 1, { opacity: 0, y: -25 }, '-= 1');
   t.to($('#space-earth'), 1, { opacity: 0, y: -25 }, '-= 1');
@@ -115,13 +115,11 @@
   t.set($('#space-sun'), { scale: 0 });
   t.set($('#space-earth'), { scale: 0 });
   t.set($('#space-rocket'), { scale: 0 });
-  t.add(TweenLite.to($('#space-stars'), 4, { y: -200 }), 'contact');
+  t.to($('#space-stars'), 4, { y: -200 });
   t.to($('#space-moon'), 4, { opacity: 1, y: 0 }, '-= 4');
   t.to($('#space-text-3'), 1, { opacity: 1 });
   t.to($('#space-text-4'), 1, { opacity: 1 });
   t.to($('#space-cta'), 2, { opacity: 1 });
-
-  t.play('contact');
 
   /*
    * Enable control of animations.
@@ -193,7 +191,6 @@
     TweenLite.set($('#tabletop-techhatch'), { opacity: 0, y: -15 });
     TweenLite.set($('#tabletop-inm'), { opacity: 0, y: -15 });
     TweenLite.set($('#tabletop-padilla'), { opacity: 0, y: -15 });
-    TweenLite.set($('#space-scene'), { scale: 0 });
     TweenLite.set($('#space-text-1'), { opacity: 0 });
     TweenLite.set($('#space-text-2'), { opacity: 0 });
     TweenLite.set($('#space-text-3'), { opacity: 0 });
