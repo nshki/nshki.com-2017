@@ -60,7 +60,7 @@ body {
   fill: #fff;
   opacity: 0.5;
   cursor: pointer;
-  transition: 0.5s ease-in;
+  transition: 0.2s ease-in;
 
   &:hover {
     opacity: 1;
@@ -72,7 +72,7 @@ body {
 }
 
 .svg-btn-front {
-  transition: 0.5s ease-in;
+  transition: 0.2s ease-in;
 
   .svg-btn:hover & {
     fill: lighten(#f5a623, 10%);
