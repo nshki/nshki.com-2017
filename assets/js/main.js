@@ -17,6 +17,7 @@
     x: -100,
     y: -700,
     repeat: -1,
+    ease: Power0.easeNone,
   });
   var rocketFlamesGlow = TweenMax.to($('#space-rocket-flames-glow'), 0.1, {
     opacity: 0.8,
@@ -106,12 +107,13 @@
   t.to($('#backdrop'), 1, { backgroundColor: '#2b333f' }, '-= 1');
   t.to($('#tabletop-scene'), 0, { scale: 0 });
   t.set($('#space-scene'), { scale: 1 });
-  t.to($('#space-stars'), 4, { opacity: 1, y: 0 });
+  t.to($('#backdrop-stars'), 4, { opacity: 1, y: 0 });
   t.to($('#space-sun'), 4, { opacity: 1, y: 0 }, '-= 4');
   t.to($('#space-earth'), 4, { opacity: 1, y: 0 }, '-= 4');
   t.to($('#space-text-1'), 1, { opacity: 1 });
   t.call(function() { rocketTravel.restart(); });
   t.to($('#space-rocket'), 1, { opacity: 1 });
+  t.add(TweenLite.set('#space-scene', { opacity: 1 }), 'pause');
   t.to($('#space-text-2'), 2, { opacity: 1 }, '+= 1').addPause();
   t.to($('#space-text-1'), 1, { opacity: 0, y: -25 });
   t.to($('#space-text-2'), 1, { opacity: 0, y: -25 }, '-= 1');
@@ -122,12 +124,14 @@
   t.set($('#space-earth'), { scale: 0 });
   t.set($('#space-rocket'), { scale: 0 });
   t.set($('#space-cta'), { scale: 0 });
-  t.to($('#space-stars'), 4, { y: -200 });
+  t.to($('#backdrop-stars'), 4, { y: -50 });
   t.to($('#space-moon'), 4, { opacity: 1, y: 0 }, '-= 4');
   t.to($('#space-text-3'), 1, { opacity: 1 });
   t.to($('#space-text-4'), 1, { opacity: 1 });
   t.set($('#space-cta'), { scale: 1 });
   t.to($('#space-cta'), 2, { opacity: 1 });
+
+  t.play('pause');
 
   /*
    * Enable back and forth control of animations.
@@ -164,6 +168,7 @@
    */
   function initGfx() {
     TweenLite.set($('#backdrop'), { scaleX: 0, transformOrigin: 'right' });
+    TweenLite.set($('#backdrop-stars'), { opacity: 0, y: 20 });
     TweenLite.set($('#desk-scene'), { scale: 0 });
     TweenLite.set($('#tabletop-scene'), { scale: 0 });
     TweenLite.set($('#space-scene'), { scale: 0 });
@@ -211,7 +216,7 @@
     TweenLite.set($('#space-text-4'), { opacity: 0 });
     TweenLite.set($('#space-sun'), { opacity: 0, y: 15 });
     TweenLite.set($('#space-earth'), { opacity: 0, y: 55 });
-    TweenLite.set($('#space-stars'), { opacity: 0, y: 100 });
+    TweenLite.set($('#space-stars'), { opacity: 0, y: 120 });
     TweenLite.set($('#space-rocket'), { opacity: 0, x: 300, y: 700 });
     TweenLite.set($('#space-moon'), { opacity: 0, y: 200 });
     TweenLite.set($('#space-cta'), { opacity: 0, scale: 0 });

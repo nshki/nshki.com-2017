@@ -1,0 +1,312 @@
+<svg id="space-scene" class="svg-scene" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1024" viewBox="0 0 1440 1024">
+  <defs>
+    <polygon id="space-X" points="182 284.5 172.008 289.753 173.916 278.627 165.832 270.747 177.004 269.123 182 259 186.996 269.123 198.168 270.747 190.084 278.627 191.992 289.753"/>
+    <filter id="space-W" width="361.8%" height="361.8%" x="-130.9%" y="-125%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-Z" points="1062 199.5 1052.008 204.753 1053.916 193.627 1045.832 185.747 1057.004 184.123 1062 174 1066.996 184.123 1078.168 185.747 1070.084 193.627 1071.992 204.753"/>
+    <filter id="space-Y" width="361.8%" height="361.8%" x="-130.9%" y="-125%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-ab" points="1188.5 406.25 1180.565 410.422 1182.08 401.586 1175.661 395.328 1184.532 394.039 1188.5 386 1192.468 394.039 1201.339 395.328 1194.92 401.586 1196.435 410.422"/>
+    <filter id="space-aa" width="446.6%" height="464.4%" x="-173.3%" y="-174%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-ad" points="1040.5 671.406 1035.247 674.168 1036.25 668.318 1032 664.176 1037.873 663.322 1040.5 658 1043.127 663.322 1049 664.176 1044.75 668.318 1045.753 674.168"/>
+    <filter id="space-ac" width="623.5%" height="650.5%" x="-261.8%" y="-262.9%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-af" points="286.5 553.406 281.247 556.168 282.25 550.318 278 546.176 283.873 545.322 286.5 540 289.127 545.322 295 546.176 290.75 550.318 291.753 556.168"/>
+    <filter id="space-ae" width="623.5%" height="650.5%" x="-261.8%" y="-262.9%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-ah" points="114.5 449.406 109.247 452.168 110.25 446.318 106 442.176 111.873 441.322 114.5 436 117.127 441.322 123 442.176 118.75 446.318 119.753 452.168"/>
+    <filter id="space-ag" width="623.5%" height="650.5%" x="-261.8%" y="-262.9%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-aj" points="204.5 760.675 201.101 762.462 201.75 758.677 199 755.996 202.8 755.444 204.5 752 206.2 755.444 210 755.996 207.25 758.677 207.899 762.462"/>
+    <filter id="space-ai" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-al" points="459.5 872.675 456.101 874.462 456.75 870.677 454 867.996 457.8 867.444 459.5 864 461.2 867.444 465 867.996 462.25 870.677 462.899 874.462"/>
+    <filter id="space-ak" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-an" points="380.5 206.675 377.101 208.462 377.75 204.677 375 201.996 378.8 201.444 380.5 198 382.2 201.444 386 201.996 383.25 204.677 383.899 208.462"/>
+    <filter id="space-am" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-ap" points="346.5 357.675 343.101 359.462 343.75 355.677 341 352.996 344.8 352.444 346.5 349 348.2 352.444 352 352.996 349.25 355.677 349.899 359.462"/>
+    <filter id="space-ao" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-ar" points="935.5 318.675 932.101 320.462 932.75 316.677 930 313.996 933.8 313.444 935.5 310 937.2 313.444 941 313.996 938.25 316.677 938.899 320.462"/>
+    <filter id="space-aq" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-at" points="907.5 799.675 904.101 801.462 904.75 797.677 902 794.996 905.8 794.444 907.5 791 909.2 794.444 913 794.996 910.25 797.677 910.899 801.462"/>
+    <filter id="space-as" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-av" points="1286.5 674.675 1283.101 676.462 1283.75 672.677 1281 669.996 1284.8 669.444 1286.5 666 1288.2 669.444 1292 669.996 1289.25 672.677 1289.899 676.462"/>
+    <filter id="space-au" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-ax" points="1253.5 8.675 1250.101 10.462 1250.75 6.677 1248 3.996 1251.8 3.444 1253.5 0 1255.2 3.444 1259 3.996 1256.25 6.677 1256.899 10.462"/>
+    <filter id="space-aw" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-az" points="27.5 42.675 24.101 44.462 24.75 40.677 22 37.996 25.8 37.444 27.5 34 29.2 37.444 33 37.996 30.25 40.677 30.899 44.462"/>
+    <filter id="space-ay" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-aB" points="78.5 626.675 75.101 628.462 75.75 624.677 73 621.996 76.8 621.444 78.5 618 80.2 621.444 84 621.996 81.25 624.677 81.899 628.462"/>
+    <filter id="space-aA" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-aD" points="16.5 820.675 13.101 822.462 13.75 818.677 11 815.996 14.8 815.444 16.5 812 18.2 815.444 22 815.996 19.25 818.677 19.899 822.462"/>
+    <filter id="space-aC" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-aF" points="1107.5 878.675 1104.101 880.462 1104.75 876.677 1102 873.996 1105.8 873.444 1107.5 870 1109.2 873.444 1113 873.996 1110.25 876.677 1110.899 880.462"/>
+    <filter id="space-aE" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-aH" points="1248.5 830.675 1245.101 832.462 1245.75 828.677 1243 825.996 1246.8 825.444 1248.5 822 1250.2 825.444 1254 825.996 1251.25 828.677 1251.899 832.462"/>
+    <filter id="space-aG" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-aJ" points="106.5 707.675 103.101 709.462 103.75 705.677 101 702.996 104.8 702.444 106.5 699 108.2 702.444 112 702.996 109.25 705.677 109.899 709.462"/>
+    <filter id="space-aI" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-aL" points="5.5 211.675 2.101 213.462 2.75 209.677 0 206.996 3.8 206.444 5.5 203 7.2 206.444 11 206.996 8.25 209.677 8.899 213.462"/>
+    <filter id="space-aK" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-aN" points="1297.5 172.675 1294.101 174.462 1294.75 170.677 1292 167.996 1295.8 167.444 1297.5 164 1299.2 167.444 1303 167.996 1300.25 170.677 1300.899 174.462"/>
+    <filter id="space-aM" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-aP" points="1259.5 221.675 1256.101 223.462 1256.75 219.677 1254 216.996 1257.8 216.444 1259.5 213 1261.2 216.444 1265 216.996 1262.25 219.677 1262.899 223.462"/>
+    <filter id="space-aO" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-aR" points="871.5 189.675 868.101 191.462 868.75 187.677 866 184.996 869.8 184.444 871.5 181 873.2 184.444 877 184.996 874.25 187.677 874.899 191.462"/>
+    <filter id="space-aQ" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="space-aT" points="1237.5 538.675 1234.101 540.462 1234.75 536.677 1232 533.996 1235.8 533.444 1237.5 530 1239.2 533.444 1243 533.996 1240.25 536.677 1240.899 540.462"/>
+    <filter id="space-aS" width="909.1%" height="950.7%" x="-404.5%" y="-406.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <path id="space-aV" d="M52.1222223,176.667949 C52.1849276,176.645625 52.2483267,176.622208 52.3124009,176.597708 C55.9551267,173.307289 58.3783449,168.81153 58.8254494,163.701102 C59.1294403,160.22647 58.4844543,156.873039 57.0924472,153.864936 C60.2361338,157.778377 61.9222175,162.72602 61.4654105,167.947348 C61.4038752,168.6507 61.3049079,169.342409 61.1704811,170.020934 C67.1249541,163.925978 73,154.599483 73,145.161629 C73,138.744616 71.3958931,132.812443 68.6782871,128 L32.3217129,128 C29.6041069,132.812443 28,138.744616 28,145.161629 C28,151.097324 30.3238493,156.988972 33.5297816,162.060371 C33.5893112,158.944626 34.308922,155.904364 35.6520825,153.170794 C34.6790872,157.66162 35.1482092,162.556271 37.1819983,167.07913 C41.6210609,172.429537 46.6143106,176.160986 49.564807,176.875366 C49.4815229,172.771933 50.526075,168.777761 52.5743939,165.391257 C51.4744006,168.939298 51.2902729,172.832384 52.1222223,176.667949 Z"/>
+    <filter id="space-aU" width="186.7%" height="179.8%" x="-43.3%" y="-39.9%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="4" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 0.631372549   0 0 0 0 0.180392157  0 0 0 1 0"/>
+    </filter>
+    <filter id="space-aW" width="184.4%" height="177.7%" x="-42.2%" y="-38.9%" filterUnits="objectBoundingBox">
+      <feOffset dx="-6" dy="-6" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 1   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+      <feOffset dx="4" dy="-12" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.97254902   0 0 0 0 0.905882353   0 0 0 0 0.109803922  0 0 0 0.5 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+    <path id="space-aX" d="M12,83.5 C12,41.8025014 42.3220964,0.943297578 52,0.943297578 C61.6779036,0.943297578 92,41.8025014 92,83.5 C92,100.139277 89.1482543,115.521365 84.3169548,128 L19.6830452,128 C14.8517457,115.521365 12,100.139277 12,83.5 Z"/>
+    <filter id="space-aY" width="112.5%" height="107.9%" x="-6.2%" y="-3.9%" filterUnits="objectBoundingBox">
+      <feOffset dx="-6" dy="-10" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <linearGradient id="space-aZ" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#EFFFFF"/>
+      <stop offset="100%" stop-color="#A8EAFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g id="space-stars">
+      <g transform="translate(78 101)">
+        <use fill="#000" filter="url(#space-W)" xlink:href="#space-X"/>
+        <use fill="#FFDCA3" xlink:href="#space-X"/>
+        <g opacity=".7">
+          <use fill="#000" filter="url(#space-Y)" xlink:href="#space-Z"/>
+          <use fill="#FFDCA3" xlink:href="#space-Z"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aa)" xlink:href="#space-ab"/>
+          <use fill="#FFDCA3" xlink:href="#space-ab"/>
+        </g>
+        <g opacity=".6">
+          <use fill="#000" filter="url(#space-ac)" xlink:href="#space-ad"/>
+          <use fill="#FFDCA3" xlink:href="#space-ad"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-ae)" xlink:href="#space-af"/>
+          <use fill="#FFDCA3" xlink:href="#space-af"/>
+        </g>
+        <g opacity=".6">
+          <use fill="#000" filter="url(#space-ag)" xlink:href="#space-ah"/>
+          <use fill="#FFDCA3" xlink:href="#space-ah"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-ai)" xlink:href="#space-aj"/>
+          <use fill="#FFDCA3" xlink:href="#space-aj"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-ak)" xlink:href="#space-al"/>
+          <use fill="#FFDCA3" xlink:href="#space-al"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-am)" xlink:href="#space-an"/>
+          <use fill="#FFDCA3" xlink:href="#space-an"/>
+        </g>
+        <g opacity=".5">
+          <use fill="#000" filter="url(#space-ao)" xlink:href="#space-ap"/>
+          <use fill="#FFDCA3" xlink:href="#space-ap"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aq)" xlink:href="#space-ar"/>
+          <use fill="#FFDCA3" xlink:href="#space-ar"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-as)" xlink:href="#space-at"/>
+          <use fill="#FFDCA3" xlink:href="#space-at"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-au)" xlink:href="#space-av"/>
+          <use fill="#FFDCA3" xlink:href="#space-av"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aw)" xlink:href="#space-ax"/>
+          <use fill="#FFDCA3" xlink:href="#space-ax"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-ay)" xlink:href="#space-az"/>
+          <use fill="#FFDCA3" xlink:href="#space-az"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aA)" xlink:href="#space-aB"/>
+          <use fill="#FFDCA3" xlink:href="#space-aB"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aC)" xlink:href="#space-aD"/>
+          <use fill="#FFDCA3" xlink:href="#space-aD"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aE)" xlink:href="#space-aF"/>
+          <use fill="#FFDCA3" xlink:href="#space-aF"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aG)" xlink:href="#space-aH"/>
+          <use fill="#FFDCA3" xlink:href="#space-aH"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aI)" xlink:href="#space-aJ"/>
+          <use fill="#FFDCA3" xlink:href="#space-aJ"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aK)" xlink:href="#space-aL"/>
+          <use fill="#FFDCA3" xlink:href="#space-aL"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aM)" xlink:href="#space-aN"/>
+          <use fill="#FFDCA3" xlink:href="#space-aN"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aO)" xlink:href="#space-aP"/>
+          <use fill="#FFDCA3" xlink:href="#space-aP"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aQ)" xlink:href="#space-aR"/>
+          <use fill="#FFDCA3" xlink:href="#space-aR"/>
+        </g>
+        <g opacity=".3">
+          <use fill="#000" filter="url(#space-aS)" xlink:href="#space-aT"/>
+          <use fill="#FFDCA3" xlink:href="#space-aT"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
