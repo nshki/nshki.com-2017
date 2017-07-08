@@ -85,71 +85,93 @@
       </g>
     </g>
     <g id="desk-cactus">
-      <g transform="translate(981 427)">
-        <use fill="#7EC280" xlink:href="#desk-a"/>
-        <rect width="72.571" height="171" x="31.17" y="32" stroke="#71AE72" stroke-width="4" rx="36.286"/>
-        <g stroke="#71AE72" stroke-width="4" transform="translate(39.197 30)">
-          <rect width="52.517" height="171" x="2" y="2" rx="26.259"/>
-          <rect width="21.524" height="171" x="17.497" y="2" rx="10.762"/>
+      <g class="svg-responsive">
+        <g transform="translate(981 427)">
+          <use fill="#7EC280" xlink:href="#desk-a"/>
+          <rect width="72.571" height="171" x="31.17" y="32" stroke="#71AE72" stroke-width="4" rx="36.286"/>
+          <g stroke="#71AE72" stroke-width="4" transform="translate(39.197 30)">
+            <rect width="52.517" height="171" x="2" y="2" rx="26.259"/>
+            <rect width="21.524" height="171" x="17.497" y="2" rx="10.762"/>
+          </g>
+          <g fill="#727E5C">
+            <g transform="translate(72.014 2)">
+              <polygon points="27.347 142 61.573 142.933 61.324 142.933 27.596 143.865"/>
+              <polygon points="22.789 129 51.959 129.933 51.747 129.933 23.001 130.865"/>
+              <polygon points="30.082 121 59.252 121.933 59.04 121.933 30.294 122.865"/>
+              <polygon points="24.612 108 53.782 108.933 53.57 108.933 24.824 109.865"/>
+              <polygon points="28.259 100 57.429 100.933 57.216 100.933 28.471 101.865"/>
+              <polygon points="27.347 85 56.517 85.933 56.305 85.933 27.559 86.865"/>
+              <polygon points="30.082 77 59.252 77.933 59.04 77.933 30.294 78.865"/>
+              <polygon points="28.259 64 57.429 64.933 57.216 64.933 28.471 65.865"/>
+              <polygon points="24.616 50.944 53.786 51.876 53.574 51.876 24.828 52.809" transform="rotate(-11 39.201 51.876)"/>
+              <polygon points="19.019 39.931 48.189 40.864 47.977 40.864 19.231 41.796" transform="rotate(-28 33.604 40.864)"/>
+              <polygon points="11.763 29.736 40.933 30.669 40.721 30.669 11.975 31.601" transform="rotate(-41 26.348 30.669)"/>
+              <polygon points="1.625 22.134 30.795 23.066 30.582 23.066 1.837 23.999" transform="rotate(-59 16.21 23.066)"/>
+              <polygon points="-9.435 13.706 19.735 14.638 19.523 14.638 -9.223 15.571" transform="rotate(-76 5.15 14.638)"/>
+            </g>
+            <g transform="matrix(-1 0 0 1 61.513 2)">
+              <polygon points="26.64 142 60.866 142.933 60.617 142.933 26.889 143.865"/>
+              <polygon points="22.082 129 51.252 129.933 51.04 129.933 22.294 130.865"/>
+              <polygon points="29.375 121 58.545 121.933 58.332 121.933 29.587 122.865"/>
+              <polygon points="23.905 108 53.075 108.933 52.863 108.933 24.117 109.865"/>
+              <polygon points="27.551 100 56.722 100.933 56.509 100.933 27.764 101.865"/>
+              <polygon points="26.64 85 55.81 85.933 55.598 85.933 26.852 86.865"/>
+              <polygon points="29.375 77 58.545 77.933 58.332 77.933 29.587 78.865"/>
+              <polygon points="27.551 64 56.722 64.933 56.509 64.933 27.764 65.865"/>
+              <polygon points="23.799 51.036 52.97 51.968 52.757 51.968 24.012 52.901" transform="rotate(-11 38.384 51.968)"/>
+              <polygon points="18.039 40.402 47.209 41.335 46.997 41.335 18.251 42.268" transform="rotate(-28 32.624 41.335)"/>
+              <polygon points="10.858 29.268 40.028 30.201 39.816 30.201 11.07 31.133" transform="rotate(-41 25.443 30.2)"/>
+              <polygon points="1.153 22.262 30.323 23.195 30.11 23.195 1.365 24.128" transform="rotate(-59 15.738 23.195)"/>
+              <polygon points="-10.027 13.818 19.143 14.75 18.931 14.75 -9.815 15.683" transform="rotate(-76 4.558 14.75)"/>
+            </g>
+            <g transform="translate(77.483 24)">
+              <polygon points="-1.022 28.801 21.3 29.734 21.137 29.734 -.86 30.666" transform="rotate(-34 10.139 29.734)"/>
+              <polygon points=".364 43.795 15.396 44.728 15.286 44.728 .473 45.66" transform="rotate(-13 7.88 44.728)"/>
+              <polygon points=".364 56.795 15.396 57.728 15.286 57.728 .473 58.66" transform="rotate(-6 7.88 57.728)"/>
+              <polygon points=".364 69.795 15.396 70.728 15.286 70.728 .473 71.66" transform="rotate(-6 7.88 70.728)"/>
+              <polygon points="2.187 80.795 17.219 81.728 17.11 81.728 2.296 82.66" transform="rotate(-6 9.703 81.728)"/>
+              <polygon points=".364 95.795 15.396 96.728 15.286 96.728 .473 97.66" transform="rotate(-6 7.88 96.728)"/>
+              <polygon points="1.276 108.795 16.307 109.728 16.198 109.728 1.385 110.66" transform="rotate(-6 8.791 109.728)"/>
+              <polygon points="2.187 122.795 17.219 123.728 17.11 123.728 2.296 124.66" transform="rotate(-6 9.703 123.728)"/>
+              <polygon points="-5.43 11.925 23.74 12.857 23.528 12.857 -5.218 13.79" transform="rotate(-56 9.155 12.857)"/>
+            </g>
+            <g transform="matrix(-1 0 0 1 57.429 24)">
+              <polygon points="-1.022 28.801 21.3 29.734 21.137 29.734 -.86 30.666" transform="rotate(-34 10.139 29.734)"/>
+              <polygon points=".364 43.795 15.396 44.728 15.286 44.728 .473 45.66" transform="rotate(-13 7.88 44.728)"/>
+              <polygon points=".364 56.795 15.396 57.728 15.286 57.728 .473 58.66" transform="rotate(-6 7.88 57.728)"/>
+              <polygon points=".364 69.795 15.396 70.728 15.286 70.728 .473 71.66" transform="rotate(-6 7.88 70.728)"/>
+              <polygon points="2.187 80.795 17.219 81.728 17.11 81.728 2.296 82.66" transform="rotate(-6 9.703 81.728)"/>
+              <polygon points=".364 95.795 15.396 96.728 15.286 96.728 .473 97.66" transform="rotate(-6 7.88 96.728)"/>
+              <polygon points="1.276 108.795 16.307 109.728 16.198 109.728 1.385 110.66" transform="rotate(-6 8.791 109.728)"/>
+              <polygon points="2.187 122.795 17.219 123.728 17.11 123.728 2.296 124.66" transform="rotate(-6 9.703 123.728)"/>
+              <polygon points="-5.43 11.925 23.74 12.857 23.528 12.857 -5.218 13.79" transform="rotate(-56 9.155 12.857)"/>
+            </g>
+            <polygon points="52.335 14.206 81.506 15.139 81.293 15.139 52.548 16.072" transform="rotate(-90 66.92 15.139)"/>
+          </g>
+          <g>
+            <use fill="#EA864B" xlink:href="#desk-b"/>
+            <use fill="#000" filter="url(#desk-c)" xlink:href="#desk-b"/>
+          </g>
         </g>
-        <g fill="#727E5C">
-          <g transform="translate(72.014 2)">
-            <polygon points="27.347 142 61.573 142.933 61.324 142.933 27.596 143.865"/>
-            <polygon points="22.789 129 51.959 129.933 51.747 129.933 23.001 130.865"/>
-            <polygon points="30.082 121 59.252 121.933 59.04 121.933 30.294 122.865"/>
-            <polygon points="24.612 108 53.782 108.933 53.57 108.933 24.824 109.865"/>
-            <polygon points="28.259 100 57.429 100.933 57.216 100.933 28.471 101.865"/>
-            <polygon points="27.347 85 56.517 85.933 56.305 85.933 27.559 86.865"/>
-            <polygon points="30.082 77 59.252 77.933 59.04 77.933 30.294 78.865"/>
-            <polygon points="28.259 64 57.429 64.933 57.216 64.933 28.471 65.865"/>
-            <polygon points="24.616 50.944 53.786 51.876 53.574 51.876 24.828 52.809" transform="rotate(-11 39.201 51.876)"/>
-            <polygon points="19.019 39.931 48.189 40.864 47.977 40.864 19.231 41.796" transform="rotate(-28 33.604 40.864)"/>
-            <polygon points="11.763 29.736 40.933 30.669 40.721 30.669 11.975 31.601" transform="rotate(-41 26.348 30.669)"/>
-            <polygon points="1.625 22.134 30.795 23.066 30.582 23.066 1.837 23.999" transform="rotate(-59 16.21 23.066)"/>
-            <polygon points="-9.435 13.706 19.735 14.638 19.523 14.638 -9.223 15.571" transform="rotate(-76 5.15 14.638)"/>
-          </g>
-          <g transform="matrix(-1 0 0 1 61.513 2)">
-            <polygon points="26.64 142 60.866 142.933 60.617 142.933 26.889 143.865"/>
-            <polygon points="22.082 129 51.252 129.933 51.04 129.933 22.294 130.865"/>
-            <polygon points="29.375 121 58.545 121.933 58.332 121.933 29.587 122.865"/>
-            <polygon points="23.905 108 53.075 108.933 52.863 108.933 24.117 109.865"/>
-            <polygon points="27.551 100 56.722 100.933 56.509 100.933 27.764 101.865"/>
-            <polygon points="26.64 85 55.81 85.933 55.598 85.933 26.852 86.865"/>
-            <polygon points="29.375 77 58.545 77.933 58.332 77.933 29.587 78.865"/>
-            <polygon points="27.551 64 56.722 64.933 56.509 64.933 27.764 65.865"/>
-            <polygon points="23.799 51.036 52.97 51.968 52.757 51.968 24.012 52.901" transform="rotate(-11 38.384 51.968)"/>
-            <polygon points="18.039 40.402 47.209 41.335 46.997 41.335 18.251 42.268" transform="rotate(-28 32.624 41.335)"/>
-            <polygon points="10.858 29.268 40.028 30.201 39.816 30.201 11.07 31.133" transform="rotate(-41 25.443 30.2)"/>
-            <polygon points="1.153 22.262 30.323 23.195 30.11 23.195 1.365 24.128" transform="rotate(-59 15.738 23.195)"/>
-            <polygon points="-10.027 13.818 19.143 14.75 18.931 14.75 -9.815 15.683" transform="rotate(-76 4.558 14.75)"/>
-          </g>
-          <g transform="translate(77.483 24)">
-            <polygon points="-1.022 28.801 21.3 29.734 21.137 29.734 -.86 30.666" transform="rotate(-34 10.139 29.734)"/>
-            <polygon points=".364 43.795 15.396 44.728 15.286 44.728 .473 45.66" transform="rotate(-13 7.88 44.728)"/>
-            <polygon points=".364 56.795 15.396 57.728 15.286 57.728 .473 58.66" transform="rotate(-6 7.88 57.728)"/>
-            <polygon points=".364 69.795 15.396 70.728 15.286 70.728 .473 71.66" transform="rotate(-6 7.88 70.728)"/>
-            <polygon points="2.187 80.795 17.219 81.728 17.11 81.728 2.296 82.66" transform="rotate(-6 9.703 81.728)"/>
-            <polygon points=".364 95.795 15.396 96.728 15.286 96.728 .473 97.66" transform="rotate(-6 7.88 96.728)"/>
-            <polygon points="1.276 108.795 16.307 109.728 16.198 109.728 1.385 110.66" transform="rotate(-6 8.791 109.728)"/>
-            <polygon points="2.187 122.795 17.219 123.728 17.11 123.728 2.296 124.66" transform="rotate(-6 9.703 123.728)"/>
-            <polygon points="-5.43 11.925 23.74 12.857 23.528 12.857 -5.218 13.79" transform="rotate(-56 9.155 12.857)"/>
-          </g>
-          <g transform="matrix(-1 0 0 1 57.429 24)">
-            <polygon points="-1.022 28.801 21.3 29.734 21.137 29.734 -.86 30.666" transform="rotate(-34 10.139 29.734)"/>
-            <polygon points=".364 43.795 15.396 44.728 15.286 44.728 .473 45.66" transform="rotate(-13 7.88 44.728)"/>
-            <polygon points=".364 56.795 15.396 57.728 15.286 57.728 .473 58.66" transform="rotate(-6 7.88 57.728)"/>
-            <polygon points=".364 69.795 15.396 70.728 15.286 70.728 .473 71.66" transform="rotate(-6 7.88 70.728)"/>
-            <polygon points="2.187 80.795 17.219 81.728 17.11 81.728 2.296 82.66" transform="rotate(-6 9.703 81.728)"/>
-            <polygon points=".364 95.795 15.396 96.728 15.286 96.728 .473 97.66" transform="rotate(-6 7.88 96.728)"/>
-            <polygon points="1.276 108.795 16.307 109.728 16.198 109.728 1.385 110.66" transform="rotate(-6 8.791 109.728)"/>
-            <polygon points="2.187 122.795 17.219 123.728 17.11 123.728 2.296 124.66" transform="rotate(-6 9.703 123.728)"/>
-            <polygon points="-5.43 11.925 23.74 12.857 23.528 12.857 -5.218 13.79" transform="rotate(-56 9.155 12.857)"/>
-          </g>
-          <polygon points="52.335 14.206 81.506 15.139 81.293 15.139 52.548 16.072" transform="rotate(-90 66.92 15.139)"/>
+      </g>
+    </g>
+    <g id="desk-lamp">
+      <g class="svg-responsive">
+        <g transform="translate(175 294)">
+          <use fill="#E8E8E8" xlink:href="#desk-r"/>
+          <use fill="#000" filter="url(#desk-s)" xlink:href="#desk-r"/>
+          <use id="desk-lamp-light" fill="#000" filter="url(#desk-t)" xlink:href="#desk-u"/>
+          <use fill="#FFDCA3" xlink:href="#desk-u"/>
+          <use fill="#000" filter="url(#desk-v)" xlink:href="#desk-u"/>
         </g>
-        <g>
-          <use fill="#EA864B" xlink:href="#desk-b"/>
-          <use fill="#000" filter="url(#desk-c)" xlink:href="#desk-b"/>
+      </g>
+    </g>
+    <g id="desk-mug">
+      <g class="svg-responsive">
+        <g transform="translate(1145 461)">
+          <rect width="134" height="14" y="210" fill="#A66F33"/>
+          <use fill="#E0E0E0" xlink:href="#desk-w"/>
+          <use fill="#000" filter="url(#desk-x)" xlink:href="#desk-w"/>
         </g>
       </g>
     </g>
@@ -291,32 +313,18 @@
         </g>
       </g>
     </g>
-    <g id="desk-lamp">
-      <g transform="translate(175 294)">
-        <use fill="#E8E8E8" xlink:href="#desk-r"/>
-        <use fill="#000" filter="url(#desk-s)" xlink:href="#desk-r"/>
-        <use id="desk-lamp-light" fill="#000" filter="url(#desk-t)" xlink:href="#desk-u"/>
-        <use fill="#FFDCA3" xlink:href="#desk-u"/>
-        <use fill="#000" filter="url(#desk-v)" xlink:href="#desk-u"/>
+    <g id="desk-text" font-size="48" transform="translate(470 109)">
+      <g class="svg-responsive">
+        <text id="desk-text-1" fill="#000" font-family="Montserrat-Bold, Montserrat" font-weight="bold">
+          <tspan x="0" y="48">My skill sets include:</tspan>
+        </text>
+        <text id="desk-text-2" fill="#9B9B9B" font-family="Oxygen-Light, Oxygen" font-weight="300">
+          <tspan x="7" y="111">front end development</tspan>
+        </text>
+        <text id="desk-text-3" fill="#9B9B9B" font-family="Oxygen-Light, Oxygen" font-weight="300">
+          <tspan x="9" y="111">back end development</tspan>
+        </text>
       </g>
-    </g>
-    <g id="desk-mug">
-      <g transform="translate(1145 461)">
-        <rect width="134" height="14" y="210" fill="#A66F33"/>
-        <use fill="#E0E0E0" xlink:href="#desk-w"/>
-        <use fill="#000" filter="url(#desk-x)" xlink:href="#desk-w"/>
-      </g>
-    </g>
-    <g font-size="48" transform="translate(470 109)">
-      <text id="desk-text-1" fill="#000" font-family="Montserrat-Bold, Montserrat" font-weight="bold">
-        <tspan x="0" y="48">My skill sets include:</tspan>
-      </text>
-      <text id="desk-text-2" fill="#9B9B9B" font-family="Oxygen-Light, Oxygen" font-weight="300">
-        <tspan x="7" y="111">front end development</tspan>
-      </text>
-      <text id="desk-text-3" fill="#9B9B9B" font-family="Oxygen-Light, Oxygen" font-weight="300">
-        <tspan x="9" y="111">back end development</tspan>
-      </text>
     </g>
   </g>
 </svg>

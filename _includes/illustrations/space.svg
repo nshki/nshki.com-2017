@@ -268,42 +268,48 @@
         </g>
       </g>
     </g>
-    <g font-size="48" transform="translate(357 110)">
-      <text id="space-text-1" fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-weight="bold">
-        <tspan x="0" y="48">Building things is my passion.</tspan>
-      </text>
-      <text id="space-text-2" fill="#9B9B9B" font-family="Oxygen-Light, Oxygen" font-weight="300">
-        <tspan x="64" y="111">Making you smile is another.</tspan>
-      </text>
-    </g>
-    <g id="space-cta" class="svg-ctas">
-      <g transform="translate(458 357)">
-        <text fill="#FFF" font-family="Oxygen-Bold, Oxygen" font-size="24" font-weight="bold" letter-spacing=".583">
-          <a class="svg-link" href="https://github.com/nshki" target="_blank"><tspan x="63" y="149">GitHub</tspan></a>
-          <a class="svg-link" href="https://twitter.com/nshki_" target="_blank"><tspan x="210" y="149">Twitter</tspan></a>
-          <a class="svg-link" href="https://www.linkedin.com/in/nshki/" target="_blank"><tspan x="360" y="149">LinkedIn</tspan></a>
+    <g id="space-text" font-size="48" transform="translate(357 110)">
+      <g class="svg-responsive">
+        <text id="space-text-1" fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-weight="bold">
+          <tspan x="0" y="48">Building things is my passion.</tspan>
         </text>
-        <a class="svg-btn" href="mailto:nishiki.liu@gmail.com" target="_blank">
-          <rect width="525" height="103" fill="#A96A00" rx="11"/>
-          <rect class="svg-btn-front" width="525" height="96" fill="#F5A623" rx="11"/>
-          <g fill="#FFF">
-            <use filter="url(#space-bs)" xlink:href="#space-bt"/>
-            <use xlink:href="#space-bt"/>
-          </g>
-          <g>
-            <use fill="#000" filter="url(#space-bu)" xlink:href="#space-bv"/>
-            <use fill="#FFF" xlink:href="#space-bv"/>
-          </g>
-        </a>
+        <text id="space-text-2" fill="#9B9B9B" font-family="Oxygen-Light, Oxygen" font-weight="300">
+          <tspan x="64" y="111">Making you smile is another.</tspan>
+        </text>
       </g>
     </g>
-    <g font-size="48" transform="translate(398 110)">
-      <text id="space-text-3" fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-weight="bold">
-        <tspan x="4" y="48">Let’s make magic happen.</tspan>
-      </text>
-      <text id="space-text-4" fill="#9B9B9B" font-family="Oxygen-Light, Oxygen" font-weight="300">
-        <tspan x="0" y="111">I’m always available for a chat.</tspan>
-      </text>
+    <g id="space-cta" class="svg-ctas">
+      <g class="svg-responsive">
+        <g transform="translate(458 357)">
+          <text fill="#FFF" font-family="Oxygen-Bold, Oxygen" font-size="24" font-weight="bold" letter-spacing=".583">
+            <a class="svg-link" href="https://github.com/nshki" target="_blank"><tspan x="63" y="149">GitHub</tspan></a>
+            <a class="svg-link" href="https://twitter.com/nshki_" target="_blank"><tspan x="210" y="149">Twitter</tspan></a>
+            <a class="svg-link" href="https://www.linkedin.com/in/nshki/" target="_blank"><tspan x="360" y="149">LinkedIn</tspan></a>
+          </text>
+          <a class="svg-btn" href="mailto:nishiki.liu@gmail.com" target="_blank">
+            <rect width="525" height="103" fill="#A96A00" rx="11"/>
+            <rect class="svg-btn-front" width="525" height="96" fill="#F5A623" rx="11"/>
+            <g fill="#FFF">
+              <use filter="url(#space-bs)" xlink:href="#space-bt"/>
+              <use xlink:href="#space-bt"/>
+            </g>
+            <g>
+              <use fill="#000" filter="url(#space-bu)" xlink:href="#space-bv"/>
+              <use fill="#FFF" xlink:href="#space-bv"/>
+            </g>
+          </a>
+        </g>
+      </g>
+    </g>
+    <g id="contact-text" font-size="48" transform="translate(398 110)">
+      <g class="svg-responsive">
+        <text id="space-text-3" fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-weight="bold">
+          <tspan x="4" y="48">Let’s make magic happen.</tspan>
+        </text>
+        <text id="space-text-4" fill="#9B9B9B" font-family="Oxygen-Light, Oxygen" font-weight="300">
+          <tspan x="0" y="111">I’m always available for a chat.</tspan>
+        </text>
+      </g>
     </g>
   </g>
 </svg>
