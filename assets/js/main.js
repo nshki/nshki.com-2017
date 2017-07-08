@@ -149,11 +149,22 @@
   /*
    * Enable swipe control using moveScene().
    */
-  swipedetect($('#swipe-area'), function(dir) {
+  swipeDetect($('#swipe-area'), function(dir) {
     if (dir === 'up') {
       moveScene('forward');
     } else if (dir === 'down') {
       moveScene('back');
+    }
+  });
+
+  /*
+   * Enable keyboard control using moveScene().
+   */
+  window.addEventListener('keydown', function(e) {
+    if (e.keyCode === 37 || e.keyCode === 38) {
+      moveScene('back');
+    } else if (e.keyCode === 39 || e.keyCode === 40) {
+      moveScene('forward');
     }
   });
 
@@ -252,7 +263,7 @@
    * @param {Function} - callback
    * @return {void}
    */
-  function swipedetect(el, callback) {
+  function swipeDetect(el, callback) {
     var touchsurface = el,
         swipedir,
         startX,
