@@ -166,54 +166,6 @@
       <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
       <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.4 0"/>
     </filter>
-    <path id="space-ba" d="M0.446182813,590.999981 C459.087663,300.912521 1002.68479,133 1585.5,133 C2168.3152,133 2711.91233,300.912521 3170.55381,590.999981 L0.446152213,591 L0.446182813,590.999981 Z"/>
-    <filter id="space-bb" width="101.6%" height="111.1%" x="-.8%" y="-5.6%" filterUnits="objectBoundingBox">
-      <feMorphology in="SourceAlpha" radius="50" result="shadowSpreadInner1"/>
-      <feOffset dy="1" in="shadowSpreadInner1" result="shadowOffsetInner1"/>
-      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
-      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.2 0"/>
-    </filter>
-    <linearGradient id="space-be" x1="50%" x2="50%" y1="-48.896%" y2="50%">
-      <stop offset="0%" stop-color="#F3F3F3"/>
-      <stop offset="100%" stop-color="#9D9D9D"/>
-    </linearGradient>
-    <ellipse id="space-bc" cx="461" cy="61" rx="184" ry="48"/>
-    <filter id="space-bd" width="106%" height="122.9%" x="-3%" y="-11.5%" filterUnits="objectBoundingBox">
-      <feOffset dy="16" in="SourceAlpha" result="shadowOffsetInner1"/>
-      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
-      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
-    </filter>
-    <ellipse id="space-bf" cx="1190" cy="69" rx="138" ry="36"/>
-    <filter id="space-bg" width="108%" height="130.6%" x="-4%" y="-15.3%" filterUnits="objectBoundingBox">
-      <feOffset dy="16" in="SourceAlpha" result="shadowOffsetInner1"/>
-      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
-      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
-    </filter>
-    <ellipse id="space-bh" cx="896.5" cy="27.5" rx="105.5" ry="27.5"/>
-    <filter id="space-bi" width="110.4%" height="140%" x="-5.2%" y="-20%" filterUnits="objectBoundingBox">
-      <feOffset dy="16" in="SourceAlpha" result="shadowOffsetInner1"/>
-      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
-      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
-    </filter>
-    <ellipse id="space-bj" cx="1488.5" cy="109.5" rx="105.5" ry="27.5"/>
-    <filter id="space-bk" width="110.4%" height="140%" x="-5.2%" y="-20%" filterUnits="objectBoundingBox">
-      <feOffset dy="16" in="SourceAlpha" result="shadowOffsetInner1"/>
-      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
-      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
-    </filter>
-    <ellipse id="space-bl" cx="105.5" cy="109.5" rx="105.5" ry="27.5"/>
-    <filter id="space-bm" width="110.4%" height="140%" x="-5.2%" y="-20%" filterUnits="objectBoundingBox">
-      <feOffset dy="16" in="SourceAlpha" result="shadowOffsetInner1"/>
-      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
-      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
-    </filter>
-    <polygon id="space-bn" points="61.201 -4.65 99.701 93.35 22.701 93.35"/>
-    <filter id="space-bo" width="113%" height="110.2%" x="-6.5%" y="-5.1%" filterUnits="objectBoundingBox">
-      <feOffset dy="-10" in="SourceAlpha" result="shadowOffsetInner1"/>
-      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
-      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
-    </filter>
-    <path id="space-bp" d="M10.8237547,4.74618485 L18.2069738,4.74618485 L18.2069738,26.6058796 L18.2335099,26.6058796 L18.2335099,26.7628851 L28.9884768,26.7628851 L28.9884768,22.2849122 L22.6849467,22.2849122 L22.6849467,4.74618485 L28.9884768,4.74618485 L28.9884768,0.268211921 L0.0422516556,0.268211921 L0.0422516556,4.74618485 L6.34578174,4.74618485 L6.34578174,22.2849122 L0.0422516556,22.2849122 L0.0422516556,26.7628851 L10.7972185,26.7628851 L10.7972185,26.6058796 L10.8237547,26.6058796 L10.8237547,4.74618485 Z"/>
     <text id="space-bt" fill="#FFF" font-family="Oxygen-Bold, Oxygen" font-size="36" font-weight="bold" letter-spacing=".583">
       <tspan x="113" y="63">nishiki.liu@gmail.com</tspan>
     </text>
@@ -323,46 +275,6 @@
       <text id="space-text-2" fill="#9B9B9B" font-family="Oxygen-Light, Oxygen" font-weight="300">
         <tspan x="64" y="111">Making you smile is another.</tspan>
       </text>
-    </g>
-    <g id="space-moon">
-      <g transform="translate(-866 627)">
-        <use fill="#9C9C9C" xlink:href="#space-ba"/>
-        <use fill="#000" filter="url(#space-bb)" xlink:href="#space-ba"/>
-        <g transform="translate(837 176)">
-          <use fill="#4F4F4F" xlink:href="#space-bc"/>
-          <use fill="#000" filter="url(#space-bd)" xlink:href="#space-bc"/>
-          <use stroke="url(#space-be)" stroke-width="6" xlink:href="#space-bc"/>
-          <use fill="#4F4F4F" xlink:href="#space-bf"/>
-          <use fill="#000" filter="url(#space-bg)" xlink:href="#space-bf"/>
-          <use stroke="url(#space-be)" stroke-width="6" xlink:href="#space-bf"/>
-          <g>
-            <use fill="#4F4F4F" xlink:href="#space-bh"/>
-            <use fill="#000" filter="url(#space-bi)" xlink:href="#space-bh"/>
-            <use stroke="url(#space-be)" stroke-width="6" xlink:href="#space-bh"/>
-          </g>
-          <g>
-            <use fill="#4F4F4F" xlink:href="#space-bj"/>
-            <use fill="#000" filter="url(#space-bk)" xlink:href="#space-bj"/>
-            <use stroke="url(#space-be)" stroke-width="6" xlink:href="#space-bj"/>
-          </g>
-          <g>
-            <use fill="#4F4F4F" xlink:href="#space-bl"/>
-            <use fill="#000" filter="url(#space-bm)" xlink:href="#space-bl"/>
-            <use stroke="url(#space-be)" stroke-width="6" xlink:href="#space-bl"/>
-          </g>
-        </g>
-        <g transform="translate(1171)">
-          <ellipse cx="30.5" cy="236.5" fill="#000" fill-opacity=".2" rx="13.5" ry="4.5"/>
-          <path fill="#D8D8D8" d="M35.5526409,236.150671 L7.97059479,11.5129328 C7.70136847,9.3202604 5.70560522,7.76099926 3.51293281,8.03022558 L3.51293281,8.03022558 L3.51293281,8.03022558 C1.3202604,8.2994519 -0.23900074,10.2952151 0.0302255797,12.4878876 L0.0302255797,12.4878876 L27.4925623,236.150671 L35.5526409,236.150671 Z"/>
-          <g transform="rotate(83 61.201 44.35)">
-            <use fill="#F5A623" xlink:href="#space-bn"/>
-            <use fill="#000" filter="url(#space-bo)" xlink:href="#space-bn"/>
-          </g>
-          <g opacity=".7" transform="rotate(-7 295.903 -199.222)">
-            <use fill="#FFF" xlink:href="#space-bp"/>
-          </g>
-        </g>
-      </g>
     </g>
     <g id="space-cta" class="svg-ctas">
       <g transform="translate(458 357)">

@@ -35,6 +35,13 @@ body {
   &.stars {
     background-image: url('/assets/img/stars.svg');
   }
+
+  &.moon {
+    background-image: url('/assets/img/moon.svg');
+    background-position: bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 }
 
 .svg-rocket {
