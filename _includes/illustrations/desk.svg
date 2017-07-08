@@ -305,26 +305,6 @@
         <rect width="134" height="14" y="210" fill="#A66F33"/>
         <use fill="#E0E0E0" xlink:href="#desk-w"/>
         <use fill="#000" filter="url(#desk-x)" xlink:href="#desk-w"/>
-        <g fill="#000" transform="translate(34)">
-          <g transform="translate(60)">
-            <rect width="7" height="13" y="40" fill-opacity=".1" rx="3.5"/>
-            <rect width="7" height="9" y="19" fill-opacity=".07" rx="3.5"/>
-            <circle cx="3.5" cy="3.5" r="3.5" fill-opacity=".03"/>
-          </g>
-          <g transform="translate(40)">
-            <rect width="7" height="13" y="40" fill-opacity=".1" rx="3.5"/>
-            <rect width="7" height="9" y="19" fill-opacity=".07" rx="3.5"/>
-            <circle cx="3.5" cy="3.5" r="3.5" fill-opacity=".03"/>
-          </g>
-          <g transform="translate(20)">
-            <rect width="7" height="13" y="40" fill-opacity=".1" rx="3.5"/>
-            <rect width="7" height="9" y="19" fill-opacity=".07" rx="3.5"/>
-            <circle cx="3.5" cy="3.5" r="3.5" fill-opacity=".03"/>
-          </g>
-          <rect width="7" height="13" y="40" fill-opacity=".1" rx="3.5"/>
-          <rect width="7" height="9" y="19" fill-opacity=".07" rx="3.5"/>
-          <circle cx="3.5" cy="3.5" r="3.5" fill-opacity=".03"/>
-        </g>
       </g>
     </g>
     <g font-size="48" transform="translate(470 109)">
