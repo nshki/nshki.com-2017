@@ -282,9 +282,9 @@
       <g class="svg-responsive">
         <g transform="translate(458 357)">
           <text fill="#FFF" font-family="Oxygen-Bold, Oxygen" font-size="24" font-weight="bold" letter-spacing=".583">
-            <a class="svg-link" href="https://github.com/nshki" target="_blank"><tspan x="63" y="149">GitHub</tspan></a>
-            <a class="svg-link" href="https://twitter.com/nshki_" target="_blank"><tspan x="210" y="149">Twitter</tspan></a>
-            <a class="svg-link" href="https://www.linkedin.com/in/nshki/" target="_blank"><tspan x="360" y="149">LinkedIn</tspan></a>
+            <a class="svg-link" xlink:href="https://github.com/nshki" target="_blank"><tspan x="63" y="149">GitHub</tspan></a>
+            <a class="svg-link" xlink:href="https://twitter.com/nshki_" target="_blank"><tspan x="210" y="149">Twitter</tspan></a>
+            <a class="svg-link" xlink:href="https://www.linkedin.com/in/nshki/" target="_blank"><tspan x="360" y="149">LinkedIn</tspan></a>
           </text>
           <a class="svg-btn" href="mailto:nishiki.liu@gmail.com" target="_blank">
             <rect width="525" height="103" fill="#A96A00" rx="11"/>

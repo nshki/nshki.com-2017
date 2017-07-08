@@ -56,6 +56,12 @@ $svg-break: 480px;
 }
 
 .svg-responsive {
+  #space-text &,
+  #space-cta &,
+  #contact-text & {
+    transform-origin: center;
+  }
+
   @media (max-width: $svg-break) {
     #desk-text &,
     #tabletop-text & {
@@ -95,19 +101,16 @@ $svg-break: 480px;
       transform: translate(270px, -90px);
     }
 
-    #space-text & {
+    #space-text &.active {
       transform: translateY(-70px) scale(0.8);
-      transform-origin: center;
     }
 
-    #space-cta & {
+    #space-cta &.active {
       transform: scale(1.1);
-      transform-origin: center;
     }
 
-    #contact-text & {
+    #contact-text &.active {
       transform: scale(0.8);
-      transform-origin: center;
     }
   }
 }
