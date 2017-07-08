@@ -19,5 +19,9 @@
     background-position: bottom center;
     background-size: 100%;
     background-repeat: no-repeat;
+
+    @media (max-width: 480px) {
+      background-size: 150%;
+    }
   }
 }
