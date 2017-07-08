@@ -121,10 +121,12 @@
   t.set($('#space-sun'), { scale: 0 });
   t.set($('#space-earth'), { scale: 0 });
   t.set($('#space-rocket'), { scale: 0 });
+  t.set($('#space-cta'), { scale: 0 });
   t.to($('#space-stars'), 4, { y: -200 });
   t.to($('#space-moon'), 4, { opacity: 1, y: 0 }, '-= 4');
   t.to($('#space-text-3'), 1, { opacity: 1 });
   t.to($('#space-text-4'), 1, { opacity: 1 });
+  t.set($('#space-cta'), { scale: 1 });
   t.to($('#space-cta'), 2, { opacity: 1 });
 
   /*
@@ -212,6 +214,6 @@
     TweenLite.set($('#space-stars'), { opacity: 0, y: 100 });
     TweenLite.set($('#space-rocket'), { opacity: 0, x: 300, y: 700 });
     TweenLite.set($('#space-moon'), { opacity: 0, y: 200 });
-    TweenLite.set($('#space-cta'), { opacity: 0 });
+    TweenLite.set($('#space-cta'), { opacity: 0, scale: 0 });
   }
 })();

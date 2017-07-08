@@ -1,4 +1,4 @@
-<svg class="svg-scene" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1024" viewBox="0 0 1440 1024">
+<svg id="tabletop-scene" class="svg-scene" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1024" viewBox="0 0 1440 1024">
   <defs>
     <rect id="tabletop-b" width="392.274" height="489.152"/>
     <filter id="tabletop-a" width="102%" height="101.6%" x="-1.5%" y="-.4%" filterUnits="objectBoundingBox">
@@ -115,7 +115,7 @@
       <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
     </filter>
   </defs>
-  <g id="tabletop-scene" fill="none" fill-rule="evenodd">
+  <g fill="none" fill-rule="evenodd">
     <g id="tabletop-illustration">
       <g transform="rotate(-30 956.303 173.38)">
         <g>
