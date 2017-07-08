@@ -284,11 +284,6 @@
       startX = touchobj.pageX;
       startY = touchobj.pageY;
       startTime = new Date().getTime();
-      e.preventDefault()
-    }, false);
-
-    touchsurface.addEventListener('touchmove', function(e) {
-      e.preventDefault();
     }, false);
 
     touchsurface.addEventListener('touchend', function(e) {
@@ -304,7 +299,6 @@
         }
       }
       handleswipe(swipedir);
-      e.preventDefault();
     }, false);
   }
 })();
