@@ -13,6 +13,11 @@
   /*
    * Setup looping animations.
    */
+  var rocketTravel = TweenMax.to($('#space-rocket'), 20, {
+    x: -100,
+    y: -700,
+    repeat: -1,
+  });
   var rocketFlames = TweenMax.to($('#space-rocket-flames'), 0.1, {
     opacity: 0.8,
     scale: 0.9,
@@ -29,22 +34,21 @@
   /*
    * Choreograph all animations.
    */
-  var spaceDone = false;
   var t = new TimelineLite();
-  t.add(TweenLite.to($('#home-jayel'), 1.5, { opacity: 1, y: 0 }), 'home');
+  t.to($('#home-jayel'), 1.5, { opacity: 1, y: 0 });
   t.to($('#home-platform'), 1.5, { opacity: 1, y: 0 }, '-= 1.5');
   t.to($('#home-text-1'), 1.5, { opacity: 1 });
   t.to($('#home-text-2'), 1.5, { opacity: 1 }).addPause();
   t.to($('#home-scene'), 1, { opacity: 0, y: 15 });
   t.set($('#home-scene'), { scale: 0 });
   t.set($('#desk-scene'), { scale: 1 });
-  t.add(TweenLite.to($('#desk-text-1'), 1, { opacity: 1 }), 'frontend');
+  t.to($('#desk-text-1'), 1, { opacity: 1 });
   t.to($('#desk-text-2'), 1, { opacity: 1 });
   t.to($('#desk-desk'), 0.5, { opacity: 1, y: 0 }, '-= 1');
-  t.to($('#desk-lamp'), 0.5, { opacity: 0.8, y: 0 });
+  t.to($('#desk-lamp'), 0.5, { opacity: 0.8, y: 0 }, '-= 0.5');
   t.to($('#desk-laptop'), 0.5, { opacity: 1, y: 0 });
-  t.to($('#desk-browser'), 0.5, { opacity: 1, scale: 1 }, '-= 0.25');
-  t.to($('#desk-simulator'), 0.5, { opacity: 1, scale: 1 }, '-= 0.25');
+  t.to($('#desk-browser'), 0.5, { opacity: 1, scale: 1 });
+  t.to($('#desk-simulator'), 0.5, { opacity: 1, scale: 1 });
   t.to($('#desk-cactus'), 0.5, { opacity: 1, y: 0 });
   t.to($('#desk-mug'), 0.5, { opacity: 1, y: 0 }).addPause();
   t.to($('#backdrop'), 1, { opacity: 1, backgroundColor: '#2b333f', scaleX: 1 });
@@ -54,64 +58,61 @@
   t.to($('#desk-cactus'), 1, { x: 90 }, '-= 1');
   t.to($('#desk-text-1'), 1, { fill: '#fff' }, '-= 1');
   t.to($('#desk-text-2'), 1, { opacity: 0, x: -15 }, '-= 1');
-  t.add(TweenLite.to($('#desk-text-3'), 1, { opacity: 1, x: 0 }, '-= 0.25'), 'backend');
+  t.to($('#desk-text-3'), 1, { opacity: 1, x: 0 }, '-= 0.25');
   t.to($('#desk-editor'), 0.5, { opacity: 1, scale: 1 }, '-= 1');
   t.to($('#desk-terminal'), 0.5, { opacity: 1, scale: 1 }, '-= 0.75');
   t.to($('#desk-lamp'), 1, { opacity: 1 });
   t.to($('#desk-lamp-light'), 1, { opacity: 1, scale: 1 }, '-= 1').addPause();
-  t.to($('#desk-scene'), 1, { opacity: 0 });
-  t.to($('#backdrop'), 1, { backgroundColor: '#fff4ea' }, '-= 1');
-  t.add(TweenLite.to($('#tabletop-text-1'), 1, { opacity: 1 }), 'illustration');
-  t.set($('#desk-scene'), { scale: 0 });
   t.set($('#tabletop-scene'), { scale: 1 });
+  t.to($('#desk-scene'), 1, { opacity: 0 }).set('#desk-scene', { scale: 0 });
+  t.to($('#tabletop-text-1'), 1, { opacity: 1 }, '-= 1');
+  t.to($('#backdrop'), 1, { backgroundColor: '#fff4ea' }, '-= 1');
   t.to($('#tabletop-text-2'), 1, { opacity: 1 });
-  t.to($('#tabletop-illustration'), 1, { opacity: 1, x: 0, y: 0, rotation: 0 }, '-= 1');
+  t.to($('#tabletop-illustration'), 1, { opacity: 1, x: 0, y: 0, rotation: 0 });
   t.to($('#tabletop-pencil'), 0.5, { opacity: 1, y: 0 }, '-= 0.5');
   t.to($('#tabletop-tablet'), 0.5, { opacity: 1, y: 0, rotation: 0 });
   t.to($('#tabletop-mouse'), 0.5, { opacity: 1, x: 0, y: 0 });
   t.to($('#tabletop-keyboard'), 0.5, { opacity: 1, y: 0 });
   t.to($('#tabletop-tea'), 0.5, { opacity: 1, x: 0, y: 0, rotation: 0 }).addPause();
-  t.add(TweenLite.to($('#tabletop-text-1'), 1, { opacity: 0, y: -15 }), 'clients');
+  t.to($('#tabletop-text-1'), 1, { opacity: 0, y: -15 });
   t.to($('#tabletop-text-2'), 1, { opacity: 0, y: -15 }, '-= 1');
   t.to($('#tabletop-illustration'), 1, { opacity: 0, x: -10, y: -10 }, '-= 1');
   t.to($('#tabletop-pencil'), 1, { opacity: 0, x: -10, y: -10 }, '-= 1');
   t.to($('#tabletop-tablet'), 1, { opacity: 0, x: -10, y: -10 }, '-= 1');
   t.to($('#tabletop-mouse'), 2, { x: -90, y: -90 }, '-= 1');
   t.to($('#tabletop-keyboard'), 2, { x: 20, y: -30, rotation: -10 }, '-= 1');
-  t.to($('#tabletop-text-3'), 1, { opacity: 1, y: 0 }, '-= 1');
-  t.to($('#tabletop-text-4'), 1, { opacity: 1, y: 0 });
-  t.to($('#tabletop-collobos'), 1, { opacity: 1, y: 0 }, '-= 1');
-  t.to($('#tabletop-sixth-sense'), 1, { opacity: 1, y: 0 });
-  t.to($('#tabletop-text-4'), 1, { opacity: 0, x: -15 });
-  t.to($('#tabletop-text-5'), 1, { opacity: 1, x: 0 }, '-= 1');
-  t.to($('#tabletop-photoshopstar'), 1, { opacity: 1, y: 0 }, '-= 1');
-  t.to($('#tabletop-endorphin'), 1, { opacity: 1, y: 0 });
-  t.to($('#tabletop-text-5'), 1, { opacity: 0, x: -15 });
-  t.to($('#tabletop-text-6'), 1, { opacity: 1, x: 0 }, '-= 1');
-  t.to($('#tabletop-imprvd'), 1, { opacity: 1, y: 0 }, '-= 1');
-  t.to($('#tabletop-techhatch'), 1, { opacity: 1, y: 0 });
-  t.to($('#tabletop-text-6'), 1, { opacity: 0, x: -15 });
-  t.to($('#tabletop-text-7'), 1, { opacity: 1, x: 0 }, '-= 1');
-  t.to($('#tabletop-inm'), 1, { opacity: 1, y: 0 }, '-= 1');
-  t.to($('#tabletop-padilla'), 1, { opacity: 1, y: 0 }).addPause();
+  t.to($('#tabletop-text-3'), 0.5, { opacity: 1, y: 0 }, '-= 0.5');
+  t.to($('#tabletop-text-4'), 0.5, { opacity: 1, y: 0 });
+  t.to($('#tabletop-collobos'), 0.5, { opacity: 1, y: 0 }, '-= 0.5');
+  t.to($('#tabletop-sixth-sense'), 0.5, { opacity: 1, y: 0 });
+  t.to($('#tabletop-text-4'), 0.5, { opacity: 0, x: -15 });
+  t.to($('#tabletop-text-5'), 0.5, { opacity: 1, x: 0 }, '-= 0.5');
+  t.to($('#tabletop-photoshopstar'), 0.5, { opacity: 1, y: 0 }, '-= 0.5');
+  t.to($('#tabletop-endorphin'), 0.5, { opacity: 1, y: 0 });
+  t.to($('#tabletop-text-5'), 0.5, { opacity: 0, x: -15 });
+  t.to($('#tabletop-text-6'), 0.5, { opacity: 1, x: 0 }, '-= 0.5');
+  t.to($('#tabletop-imprvd'), 0.5, { opacity: 1, y: 0 }, '-= 0.5');
+  t.to($('#tabletop-techhatch'), 0.5, { opacity: 1, y: 0 });
+  t.to($('#tabletop-text-6'), 0.5, { opacity: 0, x: -15 });
+  t.to($('#tabletop-text-7'), 0.5, { opacity: 1, x: 0 }, '-= 0.5');
+  t.to($('#tabletop-inm'), 0.5, { opacity: 1, y: 0 }, '-= 0.5');
+  t.to($('#tabletop-padilla'), 0.5, { opacity: 1, y: 0 }).addPause();
   t.to($('#tabletop-scene'), 1, { opacity: 0 });
   t.to($('#backdrop'), 1, { backgroundColor: '#2b333f' }, '-= 1');
   t.to($('#tabletop-scene'), 0, { scale: 0 });
-  t.add(TweenLite.set($('#space-scene'), { scale: 1 }), 'space');
+  t.set($('#space-scene'), { scale: 1 });
   t.to($('#space-stars'), 4, { opacity: 1, y: 0 });
   t.to($('#space-sun'), 4, { opacity: 1, y: 0 }, '-= 4');
   t.to($('#space-earth'), 4, { opacity: 1, y: 0 }, '-= 4');
-  t.set($('#space-rocket'), { opacity: 1 });
   t.to($('#space-text-1'), 1, { opacity: 1 });
-  t.to($('#space-text-2'), 2, { opacity: 1 }, '+= 2');
-  t.call(function() { spaceDone = true; });
-  t.to($('#space-rocket'), 20, { x: -100, y: -700 }, '-= 5').addPause();
-  t.call(function() { spaceDone = false; });
-  t.add(TweenLite.to($('#space-text-1'), 1, { opacity: 0, y: -25 }), 'contact');
+  t.call(function() { rocketTravel.restart(); rocketFlames.restart(); });
+  t.to($('#space-rocket'), 1, { opacity: 1 });
+  t.to($('#space-text-2'), 2, { opacity: 1 }, '+= 1').addPause();
+  t.to($('#space-text-1'), 1, { opacity: 0, y: -25 });
   t.to($('#space-text-2'), 1, { opacity: 0, y: -25 }, '-= 1');
   t.to($('#space-sun'), 1, { opacity: 0, y: -25 }, '-= 1');
   t.to($('#space-earth'), 1, { opacity: 0, y: -25 }, '-= 1');
-  t.to($('#space-rocket'), 1, { opacity: 0 });
+  t.to($('#space-rocket'), 1, { opacity: 0 }, '-= 1');
   t.set($('#space-sun'), { scale: 0 });
   t.set($('#space-earth'), { scale: 0 });
   t.set($('#space-rocket'), { scale: 0 });
@@ -122,12 +123,18 @@
   t.to($('#space-cta'), 2, { opacity: 1 });
 
   /*
-   * Enable control of animations.
+   * Enable back and forth control of animations.
    */
-  document.addEventListener('click', function(e) {
-    t.resume();
-    if (spaceDone) {
-      t.play('contact');
+  window.addEventListener('wheel', function(e) {
+    e.preventDefault();
+    if (!t.isActive()) {
+      if (e.deltaY < 0) {
+        t.timeScale(3);
+        (t.reversed()) ? t.resume() : t.reverse();
+      } else if (e.deltaY > 0) {
+        t.timeScale(1);
+        (t.reversed()) ? t.play() : t.resume();
+      }
     }
   });
 
