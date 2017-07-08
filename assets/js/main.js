@@ -115,6 +115,7 @@
   t.to($('#backdrop'), 1, { backgroundColor: '#2b333f' }, '-= 1');
   t.to($('#tabletop-scene'), 0, { scale: 0 });
   t.set($('#space-scene'), { scale: 1 });
+  t.call(function() { $('#space-text .svg-responsive').classList.add('active'); });
   t.to($('#backdrop-stars'), 4, { opacity: 1, y: 0 });
   t.to($('#space-sun'), 4, { opacity: 1, y: 0 }, '-= 4');
   t.to($('#space-earth'), 4, { opacity: 1, y: 0 }, '-= 4');
@@ -133,9 +134,11 @@
   t.set($('#space-cta'), { scale: 0 });
   t.to($('#backdrop-stars'), 4, { y: -50 });
   t.to($('#backdrop-moon'), 4, { opacity: 1, y: 0 }, '-= 4');
+  t.call(function() { $('#contact-text .svg-responsive').classList.add('active'); });
   t.to($('#space-text-3'), 1, { opacity: 1 });
   t.to($('#space-text-4'), 1, { opacity: 1 });
   t.set($('#space-cta'), { scale: 1 });
+  t.call(function() { $('#space-cta .svg-responsive').classList.add('active'); });
   t.to($('#space-cta'), 2, { opacity: 1 });
 
   /*
@@ -284,7 +287,6 @@
       startX = touchobj.pageX;
       startY = touchobj.pageY;
       startTime = new Date().getTime();
-      e.preventDefault()
     }, false);
 
     touchsurface.addEventListener('touchmove', function(e) {
@@ -304,7 +306,6 @@
         }
       }
       handleswipe(swipedir);
-      e.preventDefault();
     }, false);
   }
 })();
