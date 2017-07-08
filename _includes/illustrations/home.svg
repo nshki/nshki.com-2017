@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1024" viewBox="0 0 1440 1024">
+<svg class="svg-scene" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1024" viewBox="0 0 1440 1024">
   <defs>
     <polygon id="home-b" points="0 137.535 194.338 308.755 489.913 171.265 295.632 0"/>
     <filter id="home-a" width="129.2%" height="146.3%" x="-14.6%" y="-22.5%" filterUnits="objectBoundingBox">

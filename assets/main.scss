@@ -29,7 +29,7 @@ body {
   transform-origin: right;
 }
 
-svg {
+.svg-scene {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -54,12 +54,12 @@ svg {
 
 .svg-btn {
   cursor: pointer;
+}
 
-  .svg-btn-front {
-    transition: 0.5s ease-in;
-  }
+.svg-btn-front {
+  transition: 0.5s ease-in;
 
-  &:hover .svg-btn-front {
+  .svg-btn:hover & {
     fill: lighten(#f5a623, 10%);
   }
 }

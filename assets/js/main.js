@@ -29,7 +29,7 @@
    * Show page contents so we don't have a jarring blip of graphics on page
    * load.
    */
-  $('body').classList.add('loaded');
+  $('body').className = 'loaded';
 
   /*
    * Choreograph all animations.
