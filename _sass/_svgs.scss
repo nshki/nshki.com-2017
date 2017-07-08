@@ -1,0 +1,113 @@
+$svg-break: 480px;
+
+.svg-rocket {
+  position: absolute;
+  z-index: 2;
+  width: calc(100vw * 0.07);
+  min-width: 50px;
+  max-width: 80px;
+  height: auto;
+}
+
+.svg-wrapper {
+  min-width: 700px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.svg-scene {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.svg-ctas {
+  cursor: default;
+}
+
+.svg-link {
+  fill: #fff;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.svg-btn {
+  cursor: pointer;
+}
+
+.svg-btn-front {
+  transition: 0.2s ease-in;
+
+  .svg-btn:hover & {
+    fill: lighten(#f5a623, 10%);
+  }
+}
+
+.svg-responsive {
+  @media (max-width: $svg-break) {
+    #desk-text &,
+    #tabletop-text & {
+      transform: translateY(-70px);
+    }
+
+    #desk-lamp & {
+      transform: translateX(145px);
+    }
+
+    #desk-cactus & {
+      transform: translateX(-50px);
+    }
+
+    #desk-mug & {
+      transform: translateX(-120px);
+    }
+
+    #tabletop-illustration &,
+    #tabletop-pencil & {
+      transform: translate(260px, -180px);
+    }
+
+    #tabletop-keyboard & {
+      transform: translate(-265px, 110px);
+    }
+
+    #tabletop-mouse & {
+      transform: translate(175px, -540px) rotate(10deg);
+    }
+
+    #tabletop-tea & {
+      transform: translate(-165px, -430px);
+    }
+
+    #tabletop-cards & {
+      transform: translate(270px, -90px);
+    }
+
+    #space-text & {
+      transform: translateY(-70px) scale(0.8);
+      transform-origin: center;
+    }
+
+    #space-cta & {
+      transform: scale(1.1);
+      transform-origin: center;
+    }
+
+    #contact-text & {
+      transform: scale(0.8);
+      transform-origin: center;
+    }
+  }
+}

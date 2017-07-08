@@ -1,0 +1,23 @@
+.backdrop {
+  background-repeat: repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: right;
+
+  &.stars {
+    background-image: url('/assets/img/stars.svg');
+  }
+
+  &.moon {
+    background-image: url('/assets/img/moon.svg');
+    background-position: bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
