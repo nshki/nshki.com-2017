@@ -121,7 +121,6 @@
   t.to($('#space-text-1'), 1, { opacity: 1 });
   t.call(function() { rocketTravel.restart(); });
   t.to($('#rocket'), 1, { opacity: 1 });
-  t.add(TweenLite.set('#space-scene', { opacity: 1 }), 'pause');
   t.to($('#space-text-2'), 2, { opacity: 1 }, '+= 1').addPause();
   t.to($('#space-text-1'), 1, { opacity: 0, y: -25 });
   t.to($('#space-text-2'), 1, { opacity: 0, y: -25 }, '-= 1');
@@ -138,8 +137,6 @@
   t.to($('#space-text-4'), 1, { opacity: 1 });
   t.set($('#space-cta'), { scale: 1 });
   t.to($('#space-cta'), 2, { opacity: 1 });
-
-  t.play('pause');
 
   /*
    * Enable back and forth control of animations.
