@@ -18,9 +18,14 @@
     y: -700,
     repeat: -1,
   });
-  var rocketFlames = TweenMax.to($('#space-rocket-flames'), 0.1, {
+  var rocketFlamesGlow = TweenMax.to($('#space-rocket-flames-glow'), 0.1, {
     opacity: 0.8,
-    scale: 0.9,
+    scale: 0.95,
+    yoyo: true,
+    repeat: -1,
+  });
+  var rocketFlames = TweenMax.to($('#space-rocket-flames'), 1, {
+    opacity: 0.5,
     yoyo: true,
     repeat: -1,
   });
@@ -105,8 +110,9 @@
   t.to($('#space-sun'), 4, { opacity: 1, y: 0 }, '-= 4');
   t.to($('#space-earth'), 4, { opacity: 1, y: 0 }, '-= 4');
   t.to($('#space-text-1'), 1, { opacity: 1 });
-  t.call(function() { rocketTravel.restart(); rocketFlames.restart(); });
+  t.call(function() { rocketTravel.restart(); });
   t.to($('#space-rocket'), 1, { opacity: 1 });
+  t.add(TweenLite.set('#space-scene', { opacity: 1 }), 'pause');
   t.to($('#space-text-2'), 2, { opacity: 1 }, '+= 1').addPause();
   t.to($('#space-text-1'), 1, { opacity: 0, y: -25 });
   t.to($('#space-text-2'), 1, { opacity: 0, y: -25 }, '-= 1');
@@ -121,6 +127,8 @@
   t.to($('#space-text-3'), 1, { opacity: 1 });
   t.to($('#space-text-4'), 1, { opacity: 1 });
   t.to($('#space-cta'), 2, { opacity: 1 });
+
+  t.play('pause');
 
   /*
    * Enable back and forth control of animations.
