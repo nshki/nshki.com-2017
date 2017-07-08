@@ -166,35 +166,6 @@
       <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
       <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.4 0"/>
     </filter>
-    <path id="space-aV" d="M52.1222223,176.667949 C52.1849276,176.645625 52.2483267,176.622208 52.3124009,176.597708 C55.9551267,173.307289 58.3783449,168.81153 58.8254494,163.701102 C59.1294403,160.22647 58.4844543,156.873039 57.0924472,153.864936 C60.2361338,157.778377 61.9222175,162.72602 61.4654105,167.947348 C61.4038752,168.6507 61.3049079,169.342409 61.1704811,170.020934 C67.1249541,163.925978 73,154.599483 73,145.161629 C73,138.744616 71.3958931,132.812443 68.6782871,128 L32.3217129,128 C29.6041069,132.812443 28,138.744616 28,145.161629 C28,151.097324 30.3238493,156.988972 33.5297816,162.060371 C33.5893112,158.944626 34.308922,155.904364 35.6520825,153.170794 C34.6790872,157.66162 35.1482092,162.556271 37.1819983,167.07913 C41.6210609,172.429537 46.6143106,176.160986 49.564807,176.875366 C49.4815229,172.771933 50.526075,168.777761 52.5743939,165.391257 C51.4744006,168.939298 51.2902729,172.832384 52.1222223,176.667949 Z"/>
-    <filter id="space-aU" width="186.7%" height="179.8%" x="-43.3%" y="-39.9%" filterUnits="objectBoundingBox">
-      <feMorphology in="SourceAlpha" operator="dilate" radius="4" result="shadowSpreadOuter1"/>
-      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
-      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 0.631372549   0 0 0 0 0.180392157  0 0 0 1 0"/>
-    </filter>
-    <filter id="space-aW" width="184.4%" height="177.7%" x="-42.2%" y="-38.9%" filterUnits="objectBoundingBox">
-      <feOffset dx="-6" dy="-6" in="SourceAlpha" result="shadowOffsetInner1"/>
-      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
-      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 1   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
-      <feOffset dx="4" dy="-12" in="SourceAlpha" result="shadowOffsetInner2"/>
-      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
-      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.97254902   0 0 0 0 0.905882353   0 0 0 0 0.109803922  0 0 0 0.5 0"/>
-      <feMerge>
-        <feMergeNode in="shadowMatrixInner1"/>
-        <feMergeNode in="shadowMatrixInner2"/>
-      </feMerge>
-    </filter>
-    <path id="space-aX" d="M12,83.5 C12,41.8025014 42.3220964,0.943297578 52,0.943297578 C61.6779036,0.943297578 92,41.8025014 92,83.5 C92,100.139277 89.1482543,115.521365 84.3169548,128 L19.6830452,128 C14.8517457,115.521365 12,100.139277 12,83.5 Z"/>
-    <filter id="space-aY" width="112.5%" height="107.9%" x="-6.2%" y="-3.9%" filterUnits="objectBoundingBox">
-      <feOffset dx="-6" dy="-10" in="SourceAlpha" result="shadowOffsetInner1"/>
-      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
-      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
-    </filter>
-    <linearGradient id="space-aZ" x1="50%" x2="50%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#EFFFFF"/>
-      <stop offset="100%" stop-color="#A8EAFF"/>
-    </linearGradient>
     <path id="space-ba" d="M0.446182813,590.999981 C459.087663,300.912521 1002.68479,133 1585.5,133 C2168.3152,133 2711.91233,300.912521 3170.55381,590.999981 L0.446152213,591 L0.446182813,590.999981 Z"/>
     <filter id="space-bb" width="101.6%" height="111.1%" x="-.8%" y="-5.6%" filterUnits="objectBoundingBox">
       <feMorphology in="SourceAlpha" radius="50" result="shadowSpreadInner1"/>
@@ -257,28 +228,6 @@
     </filter>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <g id="space-rocket">
-      <g transform="rotate(-23 1459.542 -2370.236)">
-        <use id="space-rocket-flames-glow" fill="#000" filter="url(#space-aU)" xlink:href="#space-aV"/>
-        <g id="space-rocket-flames">
-          <use fill="#FFA12F" xlink:href="#space-aV"/>
-          <use fill="#000" filter="url(#space-aW)" xlink:href="#space-aV"/>
-        </g>
-        <g transform="translate(84 96)">
-          <path fill="#9F4949" d="M5.99451925,1.10406363 L14.0054808,6.37069012 C17.1025131,8.40676437 19.6131538,12.5679694 19.6131538,15.6650017 L19.6131538,45.3055593 C19.6131538,48.4025916 17.1025131,49.262668 14.0054808,47.2265938 L5.99451925,41.9599673 C2.89748694,39.9238931 0.386846193,35.762688 0.386846193,32.6656557 L0.386846193,3.02509814 C0.386846193,-0.0719341715 2.89748694,-0.932010618 5.99451925,1.10406363 Z"/>
-          <path fill="#000" fill-opacity=".1" d="M10.7360128,4.22125192 L5.99451925,1.10406363 C2.89748694,-0.932010618 0.386846193,-0.0719341715 0.386846193,3.02509814 L0.386846193,32.6656557 C0.386846193,34.8441114 1.62904344,37.549091 3.44375337,39.670641 C7.34784004,29.4722626 9.93537061,17.3598822 10.7360128,4.22125192 Z"/>
-        </g>
-        <path fill="#9F4949" d="M5.99451925,97.1040636 L14.0054808,102.37069 C17.1025131,104.406764 19.6131538,108.567969 19.6131538,111.665002 L19.6131538,141.305559 C19.6131538,144.402592 17.1025131,145.262668 14.0054808,143.226594 L5.99451925,137.959967 C2.89748694,135.923893 0.386846193,131.762688 0.386846193,128.665656 L0.386846193,99.0250981 C0.386846193,95.9280658 2.89748694,95.0679894 5.99451925,97.1040636 Z" transform="matrix(-1 0 0 1 20 0)"/>
-        <use fill="#FFF" xlink:href="#space-aX"/>
-        <use fill="#000" filter="url(#space-aY)" xlink:href="#space-aX"/>
-        <path fill="#CB5959" d="M15.8853731 116C16.9564559 120.232697 18.2302518 124.247618 19.6830452 128L84.3169548 128C85.7697482 124.247618 87.0435441 120.232697 88.1146269 116L15.8853731 116 15.8853731 116zM31.7460306 21C39.604414 8.74107605 47.7721284.943297578 52 .943297578 56.2278716.943297578 64.395586 8.74107605 72.2539694 21L31.7460306 21 31.7460306 21z"/>
-        <circle cx="52" cy="64" r="21" fill="url(#space-aZ)" stroke="#CC5959" stroke-width="3"/>
-        <g transform="translate(42 97)">
-          <path fill="#9F4848" d="M10,50.2194836 L10,0 L16.2595623,4.10478956 C19.3499204,6.13133215 20.8174503,11.7403298 19.5373821,16.6328364 L11.7174111,46.5212897 C11.3284649,48.007868 10.7306031,49.2572501 10,50.2194836 L10,50.2194836 Z M10,50.2194836 C9.26939688,49.2572501 8.67153508,48.007868 8.28258889,46.5212897 L0.46261791,16.6328364 C-0.817450328,11.7403298 0.650079564,6.13133215 3.74043767,4.10478956 L10,0 L10,50.2194836 L10,50.2194836 Z"/>
-          <path fill="#000" fill-opacity=".1" d="M10,50.2194836 L10,0 L16.2595623,4.10478956 C19.3499204,6.13133215 20.8174503,11.7403298 19.5373821,16.6328364 L11.7174111,46.5212897 C11.3284649,48.007868 10.7306031,49.2572501 10,50.2194836 L10,50.2194836 Z"/>
-        </g>
-      </g>
-    </g>
     <g id="space-sun">
       <g transform="translate(694 364)">
         <use fill="#000" filter="url(#space-a)" xlink:href="#space-b"/>

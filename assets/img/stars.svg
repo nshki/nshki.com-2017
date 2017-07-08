@@ -1,4 +1,4 @@
-<svg id="space-scene" class="svg-scene" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1024" viewBox="0 0 1440 1024">
+<svg id="stars-backdrop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1024" viewBox="0 0 1440 1024">
   <defs>
     <polygon id="space-X" points="182 284.5 172.008 289.753 173.916 278.627 165.832 270.747 177.004 269.123 182 259 186.996 269.123 198.168 270.747 190.084 278.627 191.992 289.753"/>
     <filter id="space-W" width="361.8%" height="361.8%" x="-130.9%" y="-125%" filterUnits="objectBoundingBox">
