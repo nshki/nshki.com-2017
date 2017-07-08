@@ -139,20 +139,28 @@
   t.to($('#space-cta'), 2, { opacity: 1 });
 
   /*
-   * Enable back and forth control of animations.
+   * Enable scroll control using moveScene().
    */
   window.addEventListener('wheel', function(e) {
     e.preventDefault();
+    (e.deltaY < 0) ? moveScene('back') : moveScene('forward');
+  });
+
+  /*
+   * Enable back and forth control of animations.
+   * @param { String } - direction
+   */
+  function moveScene(direction) {
     if (!t.isActive()) {
-      if (e.deltaY < 0) {
+      if (direction === 'back') {
         t.timeScale(3);
-        (t.reversed()) ? t.resume() : t.reverse();
-      } else if (e.deltaY > 0) {
+        t.reversed() ? t.resume() : t.reverse();
+      } else if (direction === 'forward') {
         t.timeScale(1);
-        (t.reversed()) ? t.play() : t.resume();
+        t.reversed() ? t.play() : t.resume();
       }
     }
-  });
+  }
 
   /*
    * Pretending to use jQuery selector using the power of querySelector.
