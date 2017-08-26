@@ -52,7 +52,8 @@
   t.to($('#home-jayel'), 1.5, { opacity: 1, y: 0 });
   t.to($('#home-platform'), 1.5, { opacity: 1, y: 0 }, '-= 1.5');
   t.to($('#home-text-1'), 1.5, { opacity: 1, y: 0 });
-  t.to($('#home-text-2'), 1.5, { opacity: 1, y: 0 }).addPause();
+  t.to($('#home-text-2'), 1.5, { opacity: 1, y: 0 })
+    .addPause('+= 0', activateSwipeIndicator);
   t.to($('#home-scene'), 1, { opacity: 0, y: 15 });
   t.set($('#home-scene'), { scale: 0 });
   t.set($('#desk-scene'), { scale: 1 });
@@ -64,7 +65,8 @@
   t.to($('#desk-browser'), 0.5, { opacity: 1, scale: 1 });
   t.to($('#desk-simulator'), 0.5, { opacity: 1, scale: 1 });
   t.to($('#desk-cactus'), 0.5, { opacity: 1, y: 0 });
-  t.to($('#desk-mug'), 0.5, { opacity: 1, y: 0 }).addPause();
+  t.to($('#desk-mug'), 0.5, { opacity: 1, y: 0 })
+    .addPause('+= 0', activateSwipeIndicator);
   t.to($('#backdrop'), 1, { opacity: 1, backgroundColor: '#2b333f', scaleX: 1 });
   t.to($('#desk-browser'), 0.5, { opacity: 0, scale: 0.9 });
   t.to($('#desk-simulator'), 0.5, { opacity: 0, scale: 0.9 }, '-= 0.25');
@@ -76,7 +78,8 @@
   t.to($('#desk-editor'), 0.5, { opacity: 1, scale: 1 }, '-= 1');
   t.to($('#desk-terminal'), 0.5, { opacity: 1, scale: 1 }, '-= 0.75');
   t.to($('#desk-lamp'), 1, { opacity: 1 });
-  t.to($('#desk-lamp-light'), 1, { opacity: 1, scale: 1 }, '-= 1').addPause();
+  t.to($('#desk-lamp-light'), 1, { opacity: 1, scale: 1 }, '-= 1')
+    .addPause('+= 0', activateSwipeIndicator);
   t.set($('#tabletop-scene'), { scale: 1 });
   t.to($('#desk-scene'), 1, { opacity: 0 }).set('#desk-scene', { scale: 0 });
   t.to($('#tabletop-text-1'), 1, { opacity: 1 }, '-= 1');
@@ -87,7 +90,8 @@
   t.to($('#tabletop-tablet'), 0.5, { opacity: 1, y: 0, rotation: 0 });
   t.to($('#tabletop-mouse'), 0.5, { opacity: 1, x: 0, y: 0 });
   t.to($('#tabletop-keyboard'), 0.5, { opacity: 1, y: 0 });
-  t.to($('#tabletop-tea'), 0.5, { opacity: 1, x: 0, y: 0, rotation: 0 }).addPause();
+  t.to($('#tabletop-tea'), 0.5, { opacity: 1, x: 0, y: 0, rotation: 0 })
+    .addPause('+= 0', activateSwipeIndicator);
   t.to($('#tabletop-text-1'), 1, { opacity: 0, y: -15 });
   t.to($('#tabletop-text-2'), 1, { opacity: 0, y: -15 }, '-= 1');
   t.to($('#tabletop-illustration'), 1, { opacity: 0, x: -10, y: -10 }, '-= 1');
@@ -110,7 +114,8 @@
   t.to($('#tabletop-text-6'), 0.5, { opacity: 0, x: -15 });
   t.to($('#tabletop-text-7'), 0.5, { opacity: 1, x: 0 }, '-= 0.5');
   t.to($('#tabletop-inm'), 0.5, { opacity: 1, y: 0 }, '-= 0.5');
-  t.to($('#tabletop-padilla'), 0.5, { opacity: 1, y: 0 }).addPause();
+  t.to($('#tabletop-padilla'), 0.5, { opacity: 1, y: 0 })
+    .addPause('+= 0', activateSwipeIndicator);
   t.to($('#tabletop-scene'), 1, { opacity: 0 });
   t.to($('#backdrop'), 1, { backgroundColor: '#2b333f' }, '-= 1');
   t.to($('#tabletop-scene'), 0, { scale: 0 });
@@ -122,7 +127,8 @@
   t.to($('#space-text-1'), 1, { opacity: 1 });
   t.call(function() { rocketTravel.restart(); });
   t.to($('#rocket'), 1, { opacity: 1 });
-  t.to($('#space-text-2'), 2, { opacity: 1 }, '+= 1').addPause();
+  t.to($('#space-text-2'), 2, { opacity: 1 }, '+= 1')
+    .addPause('+= 0', activateSwipeIndicator);
   t.to($('#space-text-1'), 1, { opacity: 0, y: -25 });
   t.to($('#space-text-2'), 1, { opacity: 0, y: -25 }, '-= 1');
   t.to($('#space-sun'), 1, { opacity: 0, y: -25 }, '-= 1');
@@ -172,16 +178,33 @@
   });
 
   /*
+   * Activate swipe indicator.
+   * @return {void}
+   */
+  function activateSwipeIndicator() {
+    $('.swipe-indicator').classList.add('active');
+  }
+
+  /*
+   * Deactivate swipe indicator.
+   * @return {void}
+   */
+  function deactivateSwipeIndicator() {
+    $('.swipe-indicator').classList.remove('active');
+  }
+
+  /*
    * Enable back and forth control of animations.
    * @param { String } - direction
    */
   function moveScene(direction) {
+    deactivateSwipeIndicator();
     if (!t.isActive()) {
       if (direction === 'back') {
         t.timeScale(3);
         t.reversed() ? t.resume() : t.reverse();
       } else if (direction === 'forward') {
-        t.timeScale(1);
+        t.timeScale(1.5);
         t.reversed() ? t.play() : t.resume();
       }
     }
