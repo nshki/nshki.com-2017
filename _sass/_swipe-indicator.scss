@@ -1,0 +1,16 @@
+.swipe-indicator {
+  background-color: $primary-color;
+  width: 1px;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%) scaleY(3);
+  transition: 0.5s ease-in;
+
+  &.active {
+    opacity: 1;
+    transform: translateX(-50%) scaleY(1);
+  }
+}
