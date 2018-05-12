@@ -269,7 +269,7 @@
       </g>
     </g>
     <g id="space-text" font-size="48" transform="translate(357 110)">
-      <g class="svg-responsive">
+      <g class="svg-responsive svg-responsive--text">
         <text id="space-text-1" fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-weight="bold">
           <tspan x="0" y="48">Building things is my passion.</tspan>
         </text>
@@ -302,9 +302,9 @@
       </g>
     </g>
     <g id="contact-text" font-size="48" transform="translate(398 110)">
-      <g class="svg-responsive">
+      <g class="svg-responsive svg-responsive--text">
         <text id="space-text-3" fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-weight="bold">
-          <tspan x="4" y="48">Let’s make magic happen.</tspan>
+          <tspan x="-8" y="48">Let’s make magic happen.</tspan>
         </text>
         <text id="space-text-4" fill="#9B9B9B" font-family="Oxygen-Light, Oxygen" font-weight="300">
           <tspan x="0" y="111">I’m always available for a chat.</tspan>

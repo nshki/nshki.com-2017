@@ -56,12 +56,6 @@ $svg-break: 480px;
 }
 
 .svg-responsive {
-  #space-text &,
-  #space-cta &,
-  #contact-text & {
-    transform-origin: center;
-  }
-
   @media (max-width: $svg-break) {
     #desk-text &,
     #tabletop-text & {
@@ -100,17 +94,13 @@ $svg-break: 480px;
     #tabletop-cards & {
       transform: translate(270px, -90px);
     }
+  }
+}
 
-    #space-text &.active {
-      transform: translateY(-70px) scale(0.8);
-    }
+.svg-responsive--text {
+  transform-origin: center;
 
-    #space-cta &.active {
-      transform: scale(1.1);
-    }
-
-    #contact-text &.active {
-      transform: scale(0.8);
-    }
+  @media (max-width: $svg-break) {
+    transform: translate(-79px, -100px) scale(0.8);
   }
 }
